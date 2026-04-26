@@ -1,0 +1,18 @@
+
+function welcome()
+{
+    alert("Welcome to My Web Portal");
+}
+
+            function validate()
+            {
+                let upassword = document.getElementById('upassword').value;
+
+        let passformat = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$*]).{8,10}$/;
+
+                if( ! upassword.match(passformat))
+                {
+                    alert("Strong Password Required: includes 1 digit, upper and lower case, special char any one = @  # $ * ");
+                    return false;
+                }
+            }

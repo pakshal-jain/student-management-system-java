@@ -1,0 +1,89 @@
+    .mynav
+    {
+      background: linear-gradient(200deg, blue, aqua 40%);
+    }
+    .navmenu
+    {
+      text-decoration: none;
+      margin: 2px 50px 2px auto;
+      font-weight: bold;
+      background-color: darkblue;
+      color: #fff;
+    }
+    .navmenu:hover
+    {
+      background-color: #fff;
+      color: darkblue;
+      outline: 1px solid red;
+      outline-offset: 2px;
+    }
+    .pagename
+    {
+      margin: 2px;
+      font-size: 60px;
+      color: red;
+      font-style: italic;
+      text-indent: 100px;
+    }
+    .myfooter
+    {
+      font-size: 20px;
+      color: darkred;
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      text-align: center;
+      background-color: #fff;
+      z-index: 10;
+      border: 2px solid black;
+    }
+    
+    .bottombrg
+    {
+    	margin: 300px;
+    }
+    
+            .response
+        {
+            font-size: 40px;
+            color:red;
+            
+        }
+        
+                    .myform
+            {
+                width: 60%;
+                border: 5px solid violet;
+                border-radius: 30px;
+                padding: 30px;
+                background:linear-gradient(200deg, yellow, aqua) ;
+                margin:20px auto ;
+                font-size: 20px;
+            }
+            .inputfild
+            {
+                font-size: 30px;
+                border: 2px double darkblue;
+                margin: 10px;
+                width: 95%;
+                display: block;
+                border-radius: 10px;
+            }
+            .agreecheck
+            {
+                margin: 20px;
+            }
+                .stdphoto
+    {
+        width: 40px;
+        height: 50px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 2px gray;
+        transition: all 200ms ease-out 0s;
+        border: 1px solid black;
+    }
+    .myimgtd:hover .stdphoto
+    {
+        transform:translateX(150px) scale(3.5);
+    }
